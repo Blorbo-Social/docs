@@ -4,7 +4,7 @@ import ogimages from "lume/plugins/og_images.ts";
 import metas from "lume/plugins/metas.ts";
 
 const site = lume({
-  src: "./src",
+  src: "/src",
 });
 
 site.use(theme());
