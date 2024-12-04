@@ -8,8 +8,8 @@
     <meta name="theme-color" content="hsl(220, 20%, 100%)" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="hsl(220, 20%, 10%)" media="(prefers-color-scheme: dark)">
 
-    <link rel="stylesheet" href="/styles.css">
-    <script type="module" src="/menu.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="menu.js"></script>
     <link rel="canonical" href="{{ url |> url(true) }}">
     {{ it.extra_head?.join("\n") }}
   </head>
@@ -78,7 +78,7 @@
         <aside role="note" class="footnotes">
           <dl>
             {{ for note of footnotes }}
-            <div id={{ note.id }} class="footnote">
+            <div id="{{ note.id }}" class="footnote">
               <dt><a href="#{{ note.refId }}">{{ note.label }}</a></dt>
               <dd>{{ note.content }}</dd>
             </div>
