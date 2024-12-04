@@ -23,7 +23,7 @@ export default function (options?: Options) {
     ];
 
     for (const file of files) {
-      site.remoteFile(file, import.meta.resolve(`./src/${file}`));
+      site.remoteFile(file, import.meta.resolve(`src/${file}`));
     }
   };
 }
