@@ -5,6 +5,7 @@ import metas from "lume/plugins/metas.ts";
 
 const site = lume({
   src: "/src",
+  location: new URL("https://blorbo-social.github.io/docs/"),
 });
 
 site.use(theme());
