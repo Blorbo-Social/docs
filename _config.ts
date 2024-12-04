@@ -4,7 +4,7 @@ import ogimages from "lume/plugins/og_images.ts";
 import metas from "lume/plugins/metas.ts";
 
 const site = lume({
-  src: "/src",
+  src: "./src",
   location: new URL("https://blorbo-social.github.io/docs/"),
 });
 
