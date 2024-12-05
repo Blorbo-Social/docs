@@ -1,6 +1,6 @@
-# Simple Wiki
+# Blorbo.Social wiki
 
-[Lume](https://lume.land) theme to create a simple wiki.
+We got some docos hoo boy we're rolling now.
 
 - Use markdown to save the pages
 - Instant search engine.
